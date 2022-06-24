@@ -2,6 +2,7 @@ import {useMemo, useState} from 'react'
 import Test from './components/Test'
 import Test2 from './components/Test2'
 import Test3 from './components/Test3'
+import Test4 from './components/Test4'
 
 const hardCalculate = (number) => {
   console.log('어려운 계산!!');
@@ -45,6 +46,9 @@ function App() {
       <hr />
       <br />
       <Test3 />
+      <hr />
+      <br />
+      <Test4 />
     </div>
   );
 }
